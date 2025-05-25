@@ -1,4 +1,3 @@
-
 // API Endpoints for Safari Njema Backend Integration
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
@@ -210,11 +209,12 @@ export interface Trip {
   id: string;
   routeId: string;
   company: string;
-  vehicleType: string;
+  vehicleType: 'bus' | 'matatu';
   departureTime: string;
   arrivalTime: string;
   price: number;
   availableSeats: number;
+  availableSeatNumbers: number[];
   totalSeats: number;
   features: string[];
 }
