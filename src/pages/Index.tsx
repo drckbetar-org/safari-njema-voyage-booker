@@ -39,10 +39,13 @@ const Index = () => {
                 <p className="text-xs text-sky-600">Your Journey Begins Here</p>
               </div>
             </div>
-            <nav className="hidden md:flex space-x-6">
-              <a href="#" className="text-gray-600 hover:text-sky-600">Help & Support</a>
-              <a href="#" className="text-gray-600 hover:text-sky-600">About Us</a>
-              <a href="#" className="text-gray-600 hover:text-sky-600">Parcel Service</a>
+            <nav className="hidden md:flex items-center space-x-6">
+              <div className="flex items-center space-x-2 text-sky-600 bg-sky-50 px-3 py-1 rounded-lg">
+                <Phone className="w-4 h-4" />
+                <span className="font-medium">0783640875</span>
+              </div>
+              <a href="/about" className="text-gray-600 hover:text-sky-600">About Us</a>
+              <a href="#" className="text-gray-600 hover:text-sky-600">24/7 Customer Support - Call us anytime for booking assistance, travel updates, or emergency support during your journey</a>
             </nav>
           </div>
         </div>
