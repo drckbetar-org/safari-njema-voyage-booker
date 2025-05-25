@@ -30,9 +30,11 @@ const BookingConfirmation = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-center">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-sky-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">SN</span>
-              </div>
+              <img 
+                src="/lovable-uploads/7129a01a-92cc-4e0c-a098-83acecc53ed8.png" 
+                alt="Safari Njema Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <span className="text-xl font-bold text-gray-800">Safari Njema</span>
             </div>
           </div>
